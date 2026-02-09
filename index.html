@@ -1,0 +1,807 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VELVET SKIN</title>
+  <link rel="icon" href="images/icons and photos for my website/b2d2c73f-5fae-488a-8485-9c4390482b37.jfif">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient-orb orb-one" aria-hidden="true"></div>
+  <div class="ambient-orb orb-two" aria-hidden="true"></div>
+  <div class="ambient-orb orb-three" aria-hidden="true"></div>
+  <div class="texture" aria-hidden="true"></div>
+
+  <div class="announcement">
+    <p>Free shipping on orders $75+. Next ritual drop in <strong data-countdown>--</strong>.</p>
+    <button class="ghost small" data-open-quiz>Take skin quiz</button>
+  </div>
+  
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <div>
+        <p class="brand-name">
+          <span class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+              <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M16.2 7.6c-2.9.5-5 2.3-5.9 5-1 2.8-3.8 4.1-3.8 4.1s3.6.2 6.1-1.5c2-1.4 3.2-3.6 3.2-6.4.7 1.8.8 3.6-.2 5.4 2-1.4 2.8-4.2.6-6.6z" fill="currentColor"/>
+            </svg>
+          </span>
+          VELVET SKIN
+        </p>
+        <p class="brand-tag">Glow rituals for modern skin</p>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <a href="#shop">Shop</a>
+      <a href="#bundles">Bundles</a>
+      <a href="#quiz">Skin Quiz</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#results">Results</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#questions">Questions</a>
+      <a href="#cart">Cart</a>
+      <a href="#account">Account</a>
+    </nav>
+    <div class="header-actions">
+      <div class="account-chip" data-account-chip>Guest</div>
+      <button class="ghost small" data-open-auth>Sign in</button>
+      <button class="pill" data-open-cart>Cart <span data-cart-count>0</span></button>
+      <a class="primary" href="#shop">Shop now</a>
+      <details class="kebab-menu">
+        <summary class="kebab-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </summary>
+        <div class="kebab-panel" role="menu">
+          <a href="#shop">Shop</a>
+          <a href="#bundles">Bundles</a>
+          <a href="#quiz">Skin Quiz</a>
+          <a href="#ingredients">Ingredients</a>
+          <a href="#results">Results</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#questions">Questions</a>
+          <a href="#cart">Cart</a>
+          <a href="#account">Account</a>
+          <div class="kebab-divider" aria-hidden="true"></div>
+          <div class="menu-label">Guest</div>
+          <button class="menu-action" type="button" data-open-auth>Sign in</button>
+          <button class="menu-action" type="button" data-open-cart>Cart <span data-cart-count>0</span></button>
+          <a class="menu-action" href="#shop">Shop now</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow">VELVET SKIN</p>
+        <h1>WHERE YOURE SKIN FEELS LIKE VELVET</h1>
+        <p class="lead">
+          Discover a curated collection of skin-loving formulas crafted for deep hydration, barrier repair, and luminous tone.
+          Thoughtfully made for every complexion.
+        </p>
+        <div class="hero-actions">
+          <a class="primary" href="#shop">Explore best sellers</a>
+          <button class="ghost" data-open-rituals>Build my ritual</button>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <span>4.9/5</span>
+            <p>Customer glow rating</p>
+          </div>
+          <div>
+            <span>30+</span>
+            <p>Targeted skincare solutions</p>
+          </div>
+          <div>
+            <span>96%</span>
+            <p>Say their skin feels calmer</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" data-reveal>
+        <div class="hero-card" data-product data-id="moonlight-cream" data-name="Moonlight Barrier Cream" data-price="55">
+          <p class="card-label">New launch</p>
+          <h3>Moonlight Barrier Cream</h3>
+          <p>Soft, cushiony hydration with ceramides and cloudberry.</p>
+          <button class="pill" data-add data-product-id="moonlight-cream">Add to cart</button>
+        </div>
+        <div class="hero-glow"></div>
+        <div class="hero-stack">
+          <div class="stack-item">
+            <p>Radiance Serum</p>
+            <span>Vitamin C + yuzu</span>
+          </div>
+          <div class="stack-item">
+            <p>Silk Jelly Cleanser</p>
+            <span>Gentle foam-free cleanse</span>
+          </div>
+          <div class="stack-item">
+            <p>Peptide Eye Veil</p>
+            <span>Brighten + depuff</span>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <p class="panel-title">Ritual of the week</p>
+          <p class="panel-body">Cleanse, treat, and seal with three steps that feel like a spa at home.</p>
+          <button class="ghost small" data-open-rituals>View ritual</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights" data-reveal>
+      <div class="highlight-card">
+        <h3>Clean, plush textures</h3>
+        <p>Lightweight creams that absorb quickly and leave a velvety finish.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Derm-tested formulas</h3>
+        <p>Balanced for sensitive skin with minimal fragrance and no harsh fillers.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Glow guarantee</h3>
+        <p>Try it for 30 days. If you do not feel a glow, we will help you reset.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Secure checkout</h3>
+        <p>Encrypted payments with flexible options and tracked shipping updates.</p>
+      </div>
+    </section>
+
+    <section class="drop" data-reveal>
+      <div>
+        <p class="eyebrow">Limited drop</p>
+        <h2>Velvet Blossom Night Oil</h2>
+        <p>Small-batch botanical oil for overnight bounce and softness. Subscribers get early access.</p>
+      </div>
+      <div class="drop-card">
+        <p>Next drop</p>
+        <h3 data-countdown>--</h3>
+        <button class="primary" data-open-cart>Join waitlist</button>
+      </div>
+    </section>
+
+    <section class="collections" id="collections">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Collections</p>
+        <h2>Shop by skin goal.</h2>
+      </div>
+      <div class="collection-grid">
+        <div class="collection-card" data-reveal>
+          <h3>Barrier Reset</h3>
+          <p>Ceramides, peptides, and milky hydrators to calm reactive skin.</p>
+        </div>
+        <div class="collection-card" data-reveal>
+          <h3>Bright + Even</h3>
+          <p>Vitamin C, niacinamide, and yuzu for balanced tone and glow.</p>
+        </div>
+        <div class="collection-card" data-reveal>
+          <h3>Cloud Hydration</h3>
+          <p>Featherlight textures that cushion dehydrated skin all day.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="shop">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Shop</p>
+        <h2>Best sellers that keep your skin plush all day.</h2>
+      </div>
+      <div class="product-grid">
+        <article class="product-card" data-reveal data-product data-id="radiance-dew" data-name="Radiance Dew Cream" data-price="42">
+          <div class="product-color mist"></div>
+          <span class="badge">Best seller</span>
+          <h3>Radiance Dew Cream</h3>
+          <p>Hydrating glow cream with hyaluronic acid and algae.</p>
+          <div class="product-meta">
+            <span class="price">$42</span>
+            <button class="pill" data-add data-product-id="radiance-dew">Add to cart</button>
+          </div>
+          <button class="ghost small" data-favorite>Save</button>
+        </article>
+        <article class="product-card" data-reveal data-product data-id="calm-cleanser" data-name="Calm Cloud Cleanser" data-price="28">
+          <div class="product-color blush"></div>
+          <span class="badge">Sensitive</span>
+          <h3>Calm Cloud Cleanser</h3>
+          <p>Softening cleanse for sensitive and reactive skin.</p>
+          <div class="product-meta">
+            <span class="price">$28</span>
+            <button class="pill" data-add data-product-id="calm-cleanser">Add to cart</button>
+          </div>
+          <button class="ghost small" data-favorite>Save</button>
+        </article>
+        <article class="product-card" data-reveal data-product data-id="moonlight-cream" data-name="Moonlight Barrier Cream" data-price="55">
+          <div class="product-color dawn"></div>
+          <span class="badge">Overnight</span>
+          <h3>Moonlight Barrier Cream</h3>
+          <p>Rich night cream with ceramides and squalane.</p>
+          <div class="product-meta">
+            <span class="price">$55</span>
+            <button class="pill" data-add data-product-id="moonlight-cream">Add to cart</button>
+          </div>
+          <button class="ghost small" data-favorite>Save</button>
+        </article>
+        <article class="product-card" data-reveal data-product data-id="glow-serum" data-name="Glow Veil Serum" data-price="49">
+          <div class="product-color nectar"></div>
+          <span class="badge">Brightening</span>
+          <h3>Glow Veil Serum</h3>
+          <p>Brightening serum with vitamin C and niacinamide.</p>
+          <div class="product-meta">
+            <span class="price">$49</span>
+            <button class="pill" data-add data-product-id="glow-serum">Add to cart</button>
+          </div>
+          <button class="ghost small" data-favorite>Save</button>
+        </article>
+        <article class="product-card" data-reveal data-product data-id="peptide-eye" data-name="Peptide Eye Veil" data-price="38">
+          <div class="product-color mist"></div>
+          <span class="badge">New</span>
+          <h3>Peptide Eye Veil</h3>
+          <p>Cooling eye gel to depuff and soften fine lines.</p>
+          <div class="product-meta">
+            <span class="price">$38</span>
+            <button class="pill" data-add data-product-id="peptide-eye">Add to cart</button>
+          </div>
+          <button class="ghost small" data-favorite>Save</button>
+        </article>
+        <article class="product-card" data-reveal data-product data-id="silk-cleanse" data-name="Silk Jelly Cleanser" data-price="32">
+          <div class="product-color blush"></div>
+          <span class="badge">Daily</span>
+          <h3>Silk Jelly Cleanser</h3>
+          <p>Non-stripping jelly cleanser with a satin finish.</p>
+          <div class="product-meta">
+            <span class="price">$32</span>
+            <button class="pill" data-add data-product-id="silk-cleanse">Add to cart</button>
+          </div>
+          <button class="ghost small" data-favorite>Save</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="bundles" id="bundles">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Bundles</p>
+        <h2>Curated sets for instant glow.</h2>
+      </div>
+      <div class="bundle-grid">
+        <article class="bundle-card" data-reveal data-product data-id="glass-skin" data-name="Glass Skin Set" data-price="89">
+          <h3>Glass Skin Set</h3>
+          <p>Cleanser, serum, and dew cream to brighten and smooth.</p>
+          <div class="bundle-meta">
+            <span class="price">$89</span>
+            <button class="pill" data-add data-product-id="glass-skin">Add set</button>
+          </div>
+        </article>
+        <article class="bundle-card" data-reveal data-product data-id="barrier-reset" data-name="Barrier Reset Trio" data-price="95">
+          <h3>Barrier Reset Trio</h3>
+          <p>Cleanser, mist, and barrier cream for calm + comfort.</p>
+          <div class="bundle-meta">
+            <span class="price">$95</span>
+            <button class="pill" data-add data-product-id="barrier-reset">Add set</button>
+          </div>
+        </article>
+        <article class="bundle-card" data-reveal data-product data-id="travel-ritual" data-name="Travel Ritual Kit" data-price="54">
+          <h3>Travel Ritual Kit</h3>
+          <p>Mini essentials to keep your glow while on the go.</p>
+          <div class="bundle-meta">
+            <span class="price">$54</span>
+            <button class="pill" data-add data-product-id="travel-ritual">Add set</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="ingredients" id="ingredients">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Ingredients</p>
+        <h2>Skin science, softened with botanicals.</h2>
+      </div>
+      <div class="ingredient-panel" data-reveal>
+        <div class="ingredient-tabs">
+          <button class="tab active" data-ingredient-tab="ceramide">Ceramides</button>
+          <button class="tab" data-ingredient-tab="vitc">Vitamin C</button>
+          <button class="tab" data-ingredient-tab="peptides">Peptides</button>
+          <button class="tab" data-ingredient-tab="yuzu">Yuzu</button>
+        </div>
+        <div class="ingredient-content">
+          <div class="ingredient-card active" data-ingredient-panel="ceramide">
+            <h3>Barrier builders</h3>
+            <p>Ceramides replenish lipid layers to keep moisture locked in and irritation out.</p>
+          </div>
+          <div class="ingredient-card" data-ingredient-panel="vitc">
+            <h3>Brightening boost</h3>
+            <p>Vitamin C targets dullness, helping skin look more even and luminous.</p>
+          </div>
+          <div class="ingredient-card" data-ingredient-panel="peptides">
+            <h3>Firming support</h3>
+            <p>Peptides encourage smoother, bouncier skin with consistent use.</p>
+          </div>
+          <div class="ingredient-card" data-ingredient-panel="yuzu">
+            <h3>Glow botanicals</h3>
+            <p>Yuzu and sea botanicals provide antioxidants and a fresh citrus feel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz" id="quiz">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Skin Quiz</p>
+        <h2>Answer three questions to build your ritual.</h2>
+      </div>
+      <div class="quiz-grid" data-reveal>
+        <form class="quiz-form" data-quiz-form>
+          <div class="quiz-question">
+            <p>1. What is your skin type?</p>
+            <label><input type="radio" name="skin-type" value="dry" required /><span>Dry</span></label>
+            <label><input type="radio" name="skin-type" value="oily" /><span>Oily</span></label>
+            <label><input type="radio" name="skin-type" value="combo" /><span>Combination</span></label>
+          </div>
+          <div class="quiz-question">
+            <p>2. Your main goal?</p>
+            <label><input type="radio" name="goal" value="glow" required /><span>Glow + tone</span></label>
+            <label><input type="radio" name="goal" value="calm" /><span>Calm redness</span></label>
+            <label><input type="radio" name="goal" value="hydrate" /><span>Deep hydration</span></label>
+          </div>
+          <div class="quiz-question">
+            <p>3. How often do you want to treat?</p>
+            <label><input type="radio" name="frequency" value="daily" required /><span>Daily</span></label>
+            <label><input type="radio" name="frequency" value="few" /><span>A few times a week</span></label>
+          </div>
+          <button class="primary" type="submit">Get my ritual</button>
+        </form>
+        <div class="quiz-result" data-quiz-result aria-live="polite">
+          <p class="ritual-kicker">Your ritual will appear here.</p>
+          <p class="ritual-empty">Complete the quiz to get a personalized routine.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="results" id="results">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Results</p>
+        <h2>Clinically inspired, customer proven.</h2>
+      </div>
+      <div class="results-grid">
+        <div class="result-card" data-reveal>
+          <h3>Hydration</h3>
+          <div class="progress">
+            <span data-progress="92"></span>
+          </div>
+          <p>92% felt long-lasting hydration after 7 days.</p>
+        </div>
+        <div class="result-card" data-reveal>
+          <h3>Glow</h3>
+          <div class="progress">
+            <span data-progress="88"></span>
+          </div>
+          <p>88% noticed brighter tone and smoother texture.</p>
+        </div>
+        <div class="result-card" data-reveal>
+          <h3>Calm</h3>
+          <div class="progress">
+            <span data-progress="94"></span>
+          </div>
+          <p>94% said their skin felt calmer and less reactive.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cart" id="cart">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Cart + Checkout</p>
+        <h2>Review your glow bag and checkout securely.</h2>
+      </div>
+      <div class="cart-grid" data-reveal>
+        <div class="cart-panel">
+          <div class="cart-items" data-cart-items></div>
+          <div class="cart-empty" data-cart-empty>
+            <h3>Your cart is empty.</h3>
+            <p>Browse the shop to add your favorites.</p>
+            <a class="primary" href="#shop">Shop now</a>
+          </div>
+        </div>
+        <div class="checkout-panel">
+          <div class="summary">
+            <h3>Order summary</h3>
+            <div class="summary-row"><span>Subtotal</span><span data-subtotal>$0.00</span></div>
+            <div class="summary-row"><span>Shipping</span><span data-shipping>$0.00</span></div>
+            <div class="summary-row"><span>Discount</span><span data-discount>-$0.00</span></div>
+            <div class="summary-row"><span>Tax</span><span data-tax>$0.00</span></div>
+            <div class="summary-row total"><span>Total</span><span data-total>$0.00</span></div>
+          </div>
+          <form class="checkout-form" data-checkout-form>
+            <div class="form-section">
+              <div class="section-header">
+                <h4>Contact</h4>
+                <span class="section-badge">Fast checkout</span>
+              </div>
+              <label>
+                Full name
+                <input type="text" name="fullname" placeholder="VELVET Tan" autocomplete="name" required />
+              </label>
+              <label>
+                Email address
+                <input type="email" name="email" placeholder="you@email.com" autocomplete="email" required />
+              </label>
+              <label>
+                Phone (optional)
+                <input type="tel" name="phone" placeholder="(555) 555-5555" autocomplete="tel" />
+              </label>
+            </div>
+
+            <div class="form-section">
+              <div class="section-header">
+                <h4>Shipping</h4>
+                <span class="section-badge">Free over $75</span>
+              </div>
+              <label>
+                Shipping address
+                <input type="text" name="address" placeholder="123 Glow St" autocomplete="address-line1" required />
+              </label>
+              <div class="inline-fields">
+                <label>
+                  City
+                  <input type="text" name="city" placeholder="Los Angeles" autocomplete="address-level2" required />
+                </label>
+                <label>
+                  State / Province
+                  <input type="text" name="state" placeholder="CA" autocomplete="address-level1" required />
+                </label>
+                <label>
+                  ZIP / Postal
+                  <input type="text" name="postal" placeholder="90001" autocomplete="postal-code" required />
+                </label>
+              </div>
+              <label>
+                Country / Region
+                <input type="text" name="country" placeholder="United States" autocomplete="country-name" required />
+              </label>
+              <label>
+                Promo code
+                <input type="text" name="promo" placeholder="GLOW10" data-promo-input />
+              </label>
+            </div>
+
+            <div class="form-section">
+              <div class="section-header">
+                <h4>Payment</h4>
+                <span class="secure-chip">
+                  <span class="lock-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                      <path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                      <rect x="5" y="10" width="14" height="10" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                    </svg>
+                  </span>
+                  Encrypted + 3D Secure
+                </span>
+              </div>
+
+              <div class="express-checkout">
+                <button class="express-button shop" type="button" data-express="shop">Shop Pay</button>
+                <button class="express-button paypal" type="button" data-express="paypal">PayPal</button>
+                <button class="express-button apple" type="button" data-express="apple">Apple Pay</button>
+                <button class="express-button gpay" type="button" data-express="gpay">Google Pay</button>
+              </div>
+              <div class="divider"><span>or pay with</span></div>
+
+              <div class="payment-methods">
+                <div class="payment-options">
+                  <label class="payment-option">
+                    <input type="radio" name="payment" value="card" checked />
+                    <span class="option-main">
+                      <span class="option-title">Credit / Debit card</span>
+                      <span class="option-sub">Visa, Mastercard, Amex</span>
+                    </span>
+                    <span class="option-icons" aria-hidden="true">
+                      <span class="payment-icon visa">VISA</span>
+                      <span class="payment-icon mc">MC</span>
+                      <span class="payment-icon amex">AMEX</span>
+                    </span>
+                  </label>
+                  <label class="payment-option">
+                    <input type="radio" name="payment" value="paypal" />
+                    <span class="option-main">
+                      <span class="option-title">PayPal</span>
+                      <span class="option-sub">Pay with your PayPal account</span>
+                    </span>
+                    <span class="option-icons" aria-hidden="true">
+                      <span class="payment-icon paypal">PayPal</span>
+                    </span>
+                  </label>
+                  <label class="payment-option">
+                    <input type="radio" name="payment" value="apple" />
+                    <span class="option-main">
+                      <span class="option-title">Apple Pay</span>
+                      <span class="option-sub">Use Touch ID or Face ID</span>
+                    </span>
+                    <span class="option-icons" aria-hidden="true">
+                      <span class="payment-icon apple">Apple Pay</span>
+                    </span>
+                  </label>
+                  <label class="payment-option">
+                    <input type="radio" name="payment" value="paylater" />
+                    <span class="option-main">
+                      <span class="option-title">Pay in 4</span>
+                      <span class="option-sub">Split into 4 interest-free payments</span>
+                    </span>
+                    <span class="option-icons" aria-hidden="true">
+                      <span class="payment-icon paylater">Pay in 4</span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="card-fields" data-card-fields>
+                <label>
+                  Card number
+                  <div class="input-with-icon">
+                    <input
+                      type="text"
+                      name="card"
+                      placeholder="1234 5678 9012 3456"
+                      inputmode="numeric"
+                      autocomplete="cc-number"
+                      data-card-number
+                      required
+                    />
+                    <span class="card-brand" data-card-brand>Card</span>
+                  </div>
+                  <span class="field-error" data-card-number-error></span>
+                </label>
+                <label>
+                  Name on card
+                  <input type="text" name="cardname" placeholder="VELVET Tan" autocomplete="cc-name" required />
+                </label>
+                <div class="inline-fields">
+                  <label>
+                    Expiry
+                    <input
+                      type="text"
+                      name="expiry"
+                      placeholder="MM/YY"
+                      inputmode="numeric"
+                      autocomplete="cc-exp"
+                      data-card-expiry
+                      required
+                    />
+                    <span class="field-error" data-card-expiry-error></span>
+                  </label>
+                  <label>
+                    CVC
+                    <input
+                      type="text"
+                      name="cvc"
+                      placeholder="123"
+                      inputmode="numeric"
+                      autocomplete="cc-csc"
+                      data-card-cvc
+                      required
+                    />
+                    <span class="field-error" data-card-cvc-error></span>
+                  </label>
+                </div>
+                <label>
+                  Billing ZIP / Postal
+                  <input type="text" name="zip" placeholder="90001" autocomplete="postal-code" required />
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" name="save-card" />
+                  Save card for faster checkout
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" name="billing-same" data-billing-same checked />
+                  Billing address same as shipping
+                </label>
+                <div class="billing-fields hidden" data-billing-fields>
+                  <label>
+                    Billing address
+                    <input type="text" name="billing-address" placeholder="123 Glow St" autocomplete="address-line1" />
+                  </label>
+                  <div class="inline-fields">
+                    <label>
+                      City
+                      <input type="text" name="billing-city" placeholder="Los Angeles" autocomplete="address-level2" />
+                    </label>
+                    <label>
+                      State / Province
+                      <input type="text" name="billing-state" placeholder="CA" autocomplete="address-level1" />
+                    </label>
+                    <label>
+                      ZIP / Postal
+                      <input type="text" name="billing-postal" placeholder="90001" autocomplete="postal-code" />
+                    </label>
+                  </div>
+                  <label>
+                    Country / Region
+                    <input type="text" name="billing-country" placeholder="United States" autocomplete="country-name" />
+                  </label>
+                </div>
+              </div>
+
+              <div class="alt-payment-note" data-alt-payment-note></div>
+              <div class="payment-perks">
+                <div class="perk">
+                  <h5>Glow guarantee</h5>
+                  <p>30-day return window on all rituals.</p>
+                </div>
+                <div class="perk">
+                  <h5>Instant receipt</h5>
+                  <p>Email confirmation + tracking updates.</p>
+                </div>
+                <div class="perk">
+                  <h5>Priority support</h5>
+                  <p>Chat with our ritual experts anytime.</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="primary" type="submit" data-pay-button>Pay $0.00</button>
+            <p class="fine-print">By placing your order, you agree to our terms and privacy policy.</p>
+            <p class="form-note" data-checkout-status></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="auth" id="account">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Account</p>
+        <h2>Login or create your VELVET account.</h2>
+      </div>
+      <div class="auth-panel" data-reveal>
+        <div class="account-status" data-account-status>
+          <div>
+            <h3>Account status</h3>
+            <p data-account-message>Not signed in yet.</p>
+          </div>
+          <button class="ghost small" data-signout hidden>Sign out</button>
+        </div>
+        <div class="auth-tabs">
+          <button class="tab active" data-auth-tab="login">Login</button>
+          <button class="tab" data-auth-tab="register">Register</button>
+        </div>
+        <div class="auth-forms">
+          <form class="auth-form active" data-auth-panel="login" data-login-form>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Password
+              <input type="password" name="password" placeholder="Minimum 8 characters" required />
+            </label>
+            <button type="submit" class="primary">Login</button>
+            <p class="form-note" data-login-status></p>
+          </form>
+          <form class="auth-form" data-auth-panel="register" data-register-form>
+            <label>
+              Full name
+              <input type="text" name="name" placeholder="VELVET Tan" required />
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Create password
+              <input type="password" name="password" placeholder="Minimum 8 characters" required />
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" required />
+              I agree to the terms and privacy policy.
+            </label>
+            <button type="submit" class="primary">Create account</button>
+            <p class="form-note" data-register-status></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Reviews</p>
+        <h2>Skin care that customers keep on repeat.</h2>
+      </div>
+      <div class="review-grid">
+        <blockquote class="review" data-reveal>
+          <p>"The Moonlight Barrier Cream makes my skin feel plush by morning. Zero irritation."</p>
+          <span>- Priya M.</span>
+        </blockquote>
+        <blockquote class="review" data-reveal>
+          <p>"I switched to the Calm Cloud Cleanser and my redness dialed down in a week."</p>
+          <span>- Mateo L.</span>
+        </blockquote>
+        <blockquote class="review" data-reveal>
+          <p>"The glow is real. Lightweight, dewy, and no greasy finish."</p>
+          <span>- Jordan K.</span>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="questions" id="questions">
+      <div class="section-title" data-reveal>
+        <p class="eyebrow">Questions</p>
+        <h2>Ask our ritual experts.</h2>
+        <p class="lead">Have a question about routines, ingredients, or orders? Send it here.</p>
+      </div>
+      <form class="question-form" data-question-form data-reveal>
+        <label>
+          Full name
+          <input
+            type="text"
+            name="sender_name"
+            placeholder="Your name"
+            autocomplete="name"
+            required
+            data-question-name
+          />
+        </label>
+        <label>
+          Sender email
+          <input
+            type="email"
+            name="sender_email"
+            placeholder="Your registered email"
+            autocomplete="email"
+            required
+            data-question-email
+          />
+        </label>
+        <label>
+          Receiver email
+          <input
+            type="email"
+            name="receiver_email"
+            value="demetree95@gmail.com"
+            readonly
+            aria-readonly="true"
+          />
+        </label>
+        <label>
+          Your question
+          <textarea name="question" placeholder="How can we help?" required></textarea>
+        </label>
+        <button class="primary" type="submit" data-question-submit>Send question</button>
+        <p class="form-note" data-question-status></p>
+      </form>
+    </section>
+
+    <section class="newsletter" data-reveal>
+      <div>
+        <h2>Stay in the glow loop.</h2>
+        <p>Get early access to drops, skin tips, and exclusive bundles.</p>
+      </div>
+      <form class="newsletter-form" data-newsletter-form>
+        <input type="email" placeholder="Email address" required />
+        <button class="primary" type="submit">Join the list</button>
+        <p class="form-note" data-newsletter-status></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h3>VELVET Skincare</h3>
+      <p>Soft science for luminous skin.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#shop">Shop</a>
+      <a href="#account">Login</a>
+      <a href="#cart">Cart</a>
+      <a href="#faq">Shipping</a>
+      <a href="#questions">Contact</a>
+    </div>
+    <p class="footer-note"> VELVET SKIN. All rights reserved.</p>
+  </footer>
+</body>
+</html>
